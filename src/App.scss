@@ -1,0 +1,123 @@
+
+body{
+  display: inline;
+}
+button{
+  border: none;
+  border-radius: 3px;
+  color: white;
+}
+strong{
+  display: block;
+}
+.submit_btn{
+  background: #5cb85c;       
+  width: 90%;
+}
+.detail_btn{
+  background: #00bcd4;
+}
+.remove_btn{
+  background: #d9534f;
+}
+.tasker-header{
+  display: block;
+  margin-top: 15px;
+  padding-top: 20px;
+  padding-bottom: 0.625em;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  border-style: solid;
+  border-width: 1px;
+  text-align: center;
+  width: 48%;
+  float: left; 
+  margin-left: 9px;
+}
+.tasker-body{
+  display: block;
+  float: right;
+  margin-top: 15px;
+  padding-top: 20px;
+  padding-bottom: 0.625em;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  border-style: solid;
+  border-width: 1px;
+  text-align: center;
+  width: 48%;
+  float: right;
+}
+#input-task{
+  width: 90%; height:  35px;
+}
+#add-task-btn{
+  background: #5cb85c;
+  margin-top: 30px;
+  height: 30px;
+  width: 90%;
+}
+#tasks{
+  border: black solid 1px;
+  display: none;
+  margin-top: 5%;
+  button{
+    height: 30px;
+    width: 100px;
+  }
+}
+
+#done-btn{
+  background: #2196f3;
+}
+#remove-btn{
+  background: #d9534f;
+}
+#bull{
+  background: #e0e0e0;
+  height: 50px;
+  padding-top: 20px;
+  padding-left: 10px;
+  text-align: left;
+  display: none;
+  button{   
+    float: right;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+.des, .date{
+  display: block;
+}
+#task-des{
+  width: 90%; 
+  height: 140px
+}
+#infor{
+  text-align: left;
+  width: 90%;
+}
+#date{
+  float: left; 
+  margin-left: 40px; 
+  width: 50%;
+}
+#datefield{
+  height: 30px; 
+  width: 90%;
+}
+select{
+  height: 33px; 
+  width: 40%;
+}
+#search{
+  height: 30px;
+  width: 95%;
+}
+#des{
+  margin-left: -580px;
+}
+input{
+  border: 1px solid #d2d2d2
+}
